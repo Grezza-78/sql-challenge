@@ -3,16 +3,17 @@
 The purpose of this challenge was to undertake a research project about people who joined a non-specific company during the 1980s and 1990s. 
 
 **The challenge was divided into three sections:**
+  * 
   * **1 Data Modelling**
-       This section required the review six CSV files containing various data points including:
-         *a) Departments - Department Number (PK) and Department Name
-         *b) Department Employee - Department Number (PK) and Employee Number (PK) (all employees)
-         *c) Department Manager - Department Number and Employee Number (PK) (specific to managers)
-         *d) Employees - Employee Number (PK), Employee Title, Birth Date, First Name, Last Name, Sex and Hire Date
-         *e) Salaries - Employee Number (PK) and Salary
-         *f) Titles - Title Id (PK) and Title
-       PK = Primary Key
-       Part of the modelling includes the design of an entity relationship diagram (ERD)
+  * This section required the review six CSV files containing various data points including:
+  *       *a) Departments - Department Number (PK) and Department Name
+  *       *b) Department Employee - Department Number (PK) and Employee Number (PK) (all employees)
+  *       *c) Department Manager - Department Number and Employee Number (PK) (specific to managers)
+  *       *d) Employees - Employee Number (PK), Employee Title, Birth Date, First Name, Last Name, Sex and Hire Date
+  *       *e) Salaries - Employee Number (PK) and Salary
+  *       *f) Titles - Title Id (PK) and Title
+  *     PK = Primary Key
+  *     Part of the modelling includes the design of an entity relationship diagram (ERD)
         
   * **2 Data Engineering**
        This section required the design of schema tables in PostgreSQL using pgAdmin4 to hold imported data from six CSV files including the specifying the data types,          primary keys and foreign keys, Once the tables were designed the CSV data files were imported according to their designed schema.
