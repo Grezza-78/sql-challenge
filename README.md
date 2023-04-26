@@ -5,12 +5,13 @@ The purpose of this challenge was to undertake a research project about people w
 **The challenge was divided into three sections:**
   * **1 Data Modelling**
        This section required the review six CSV files containing various data points including:
-         *a) Departments - Department Number and Department Name
-         *b) Department Employee - Department Number and Employee Number (all employees)
-         *c) Department Manager - Department Number and Employee Number (specific to managers)
-         *d) Employees - Employee Number, Employee Title, Birth Date, First Name, Last Name, Sex and Hire Date
-         *e) Salaries - Employee Number, and Salary
-         *f) Titles - Title Id and Title
+         *a) Departments - Department Number (PK) and Department Name
+         *b) Department Employee - Department Number (PK) and Employee Number (PK) (all employees)
+         *c) Department Manager - Department Number and Employee Number (PK) (specific to managers)
+         *d) Employees - Employee Number (PK), Employee Title, Birth Date, First Name, Last Name, Sex and Hire Date
+         *e) Salaries - Employee Number (PK) and Salary
+         *f) Titles - Title Id (PK) and Title
+       PK = Primary Key
        Part of the modelling includes the design of an entity relationship diagram (ERD)
         
   * **2 Data Engineering**
