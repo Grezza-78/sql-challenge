@@ -4,7 +4,7 @@ The purpose of this challenge was to undertake a research project about people w
 
 **The challenge was divided into three sections:**
   * 
-  **1 Data Modelling**
+  * **1 Data Modelling**
   This section required the review six CSV files containing various data points including:
    *a) Departments - Department Number (PK) and Department Name
    *b) Department Employee - Department Number (PK) and Employee Number (PK) (all employees)
